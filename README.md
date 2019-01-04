@@ -1,0 +1,2 @@
+## Why the "i18n" image?
+To support i18n on the node docker container we are using on circle-ci to run the app tests, we need to create [a custom Node image](https://circleci.com/docs/2.0/custom-images/#creating-a-custom-image-manually) with [`full-icu`](https://nodejs.org/api/intl.html) 
